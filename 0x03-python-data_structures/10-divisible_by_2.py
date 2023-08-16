@@ -1,5 +1,12 @@
 #!/usr/bin/python3
 
 def divisible_by_2(my_list=[]):
-    divisible = [a % 2 == 0 for a in my_list]
-        return divisible
+    divisbl = []
+
+    for d in range(len(my_list)):
+        if my_list[d] % 2 == 0:
+            divisbl.append(True)
+        else:
+            divisbl.append(False)
+
+    return (divisbl)
