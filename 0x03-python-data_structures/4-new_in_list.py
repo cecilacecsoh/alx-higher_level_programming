@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
 def new_in_list(my_list, idx, element):
-    tmp_list = my_list[:]
+    length = len(my_list)
 
-    if 0 <= idx < len(my_list):
-        tmp_list[idx] = element
-        return(tmp_list)
+    origi_list = my_list[:]
 
-    return(my_list)
+    if 0 <= idx < length:
+        origi_list[idx] = element
+
+    return (origi_list)
