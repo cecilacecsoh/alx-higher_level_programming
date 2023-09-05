@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-""" a class LockedClass with no class or object attribute
+
+"""
+101-locked_class task
 """
 
+
 class LockedClass:
-        """ A class of locked class """
+    """ a class of locked class """
     #  define the available slots that can be created
-    __slots__= ['first_name']
+    __slots__ = ('first_name')
