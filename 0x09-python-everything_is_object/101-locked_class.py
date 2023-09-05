@@ -4,5 +4,6 @@
 """
 
 class LockedClass:
-    """ A class of locked class """
+    """ A class of locked class
+    """
     __slots__ = ('first_name')
