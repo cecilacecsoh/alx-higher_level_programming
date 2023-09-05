@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
-"""A 101-locked_class Module
+""" a class LockedClass with no class or object attribute
 """
+
 class LockedClass:
-    __slots__ = ('first_name')
+    __slots__= ['first_name']
