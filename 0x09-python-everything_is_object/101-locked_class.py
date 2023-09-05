@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
+""" 101-locked_class task
 """
-101-locked_class task
-"""
-
 
 class LockedClass:
     """ a class of locked class """
