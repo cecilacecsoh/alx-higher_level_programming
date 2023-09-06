@@ -5,9 +5,9 @@ A class Rectangle that defines a rectangle
 
 
 class Rectangle:
-    """Representation of a rectangle"""
+    """a class representation of a rectangle"""
 
-    instance_num = 0
+    number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         """initializing the rectangle by
@@ -15,21 +15,21 @@ class Rectangle:
         """
         self.width = width
         self.height = height
-        Rectangle.instance_num += 1
+        Rectangle.number_of_instances += 1
 
     def __del__(self):
         """prints a string when an instance has been deleted"""
         print("Bye rectangle...")
-        Rectangle.instance_num -= 1
+        Rectangle.number_of_instances -= 1
 
     @property
     def width(self):
-        """getter for the private instance attribute width"""
+        """getter for instance attribute width"""
         return self.__width
 
     @width.setter
     def width(self, value):
-        """setter for the private instance attribute width"""
+        """setter for  instance attribute width"""
         if type(value) is not int:
             raise TypeError("the width must be an integer")
         if value < 0:
@@ -38,12 +38,12 @@ class Rectangle:
 
     @property
     def height(self):
-        """getter for the private instance attribute height"""
+        """getter for  instance attribute height"""
         return self.__height
 
     @height.setter
     def height(self, value):
-        """setter for the private instance attribute height"""
+        """setter for attribute height"""
         if type(value) is not int:
             raise TypeError("the height must be an integer")
         if value < 0:
