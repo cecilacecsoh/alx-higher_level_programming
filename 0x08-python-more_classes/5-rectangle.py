@@ -7,7 +7,8 @@ A class Rectangle that defines a rectangle
 class Rectangle:
     """Class representation of a rectangle"""
     def __init__(self, width=0, height=0):
-        """An Instantiation with optional width and height """
+        """An Instantiation with optional width and height
+        """
         self.width = width
         self.height = height
 
