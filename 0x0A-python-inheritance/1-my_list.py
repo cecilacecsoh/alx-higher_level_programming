@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
-""" A container of MyList class inherit from list
 """
+A container of MyList class inherit from list
+"""
+
+
 class MyList(list):
     """MyList class that inherited from list"""
     def __init__(self):
