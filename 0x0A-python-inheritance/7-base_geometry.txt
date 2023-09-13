@@ -53,7 +53,7 @@ integer_validator method arg test (0 args):
     >>> bg.integer_validator()
     Traceback (most recent call last):
     TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
-    
+
 integer_validator method arg test (3 args):
     >>> bg.integer_validator(1, 1, 1)
     Traceback (most recent call last):
@@ -101,7 +101,7 @@ integer_validator method negative value:
 
 integer_validator method ok value:
     >>> bg.integer_validator("key", 98)
-    
+
 integer_validator method ok value 2:
     >>> bg.integer_validator("key", 1)
 
