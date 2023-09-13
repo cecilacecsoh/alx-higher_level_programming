@@ -16,5 +16,6 @@ def append_after(filename="", search_string="", new_string=""):
                 lines[n:n + 1] = [line[n], new_string]
                 n += 1
             n += 1
-        with open(filename, "w", encoding="utf-8") as f:
+ 
+    with open(filename, "w", encoding="utf-8") as f:
         f.writelines(lines)
